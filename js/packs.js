@@ -142,35 +142,34 @@ const PACKS = [
     dateAdded: '2026-06-22',
   },
   {
-    id: 'undisputed',
-    slug: 'undisputed',
-    title: 'Undisputed',
+    id: 'clean',
+    slug: 'clean',
+    title: 'Clean',
     author: 'feum',
     authorAvatar: CDN + 'images/avatars/uua.png',
     description: '',
     resolution: '',
     tags: ['', ''],
-    cover: CDN + 'images/covers/undisputed.png',
+    cover: CDN + 'images/covers/clean.png',
     screenshots: [
-      CDN + 'images/covers/undisputed.png',
+      CDN + 'images/covers/clean.png',
     ],
-    youtubeEmbed: 'https://youtu.be/a_wdjMFBT2Y',
+    youtubeEmbed: 'https://www,youtube.com/embed/AFXH0bts4UIY',
 
     // Pack folder — shown as a popup instead of a single download button.
     // Each entry uses either:
     //   downloadFile: '...'  → direct file download (CDN link or GitHub raw)
     //   downloadUrl:  '...'  → opens external site in a new tab (Mediafire, Gumroad, etc.)
     packFolder: [
-      { name: 'Alltalk 32x',    downloadUrl: 'https://www.mediafire.com/file/7a5jeeocei6lv6h/alltalk_32x.mcpack/file' },
       { name: 'vfault',      downloadUrl: 'https://www.mediafire.com/file/lpgmku8x2oyy6gp/vfault.mcpack/file' },
       { name: 'Stains',    downloadUrl: 'https://www.mediafire.com/file/517iw66t66hoztq/stains.mcpack/file' },
       { name: 'Autumn',    downloadUrl: 'https://www.mediafire.com/file/2p7lr8k3w39czf7/autumn.mcpack/file' },
       { name: 'Paradise Garden',    downloadUrl: 'https://www.mediafire.com/file/c3erfhuq31ahxpz/Paradise_Garden.mcpack/file' },
-      { name: 'Achromatic',    downloadUrl: 'https://www.mediafire.com/file/p3gd9dx905i6u03/Achromatic.mcpack/file' },
+      { name: 'Invul',    downloadUrl: 'https://www.mediafire.com/file/1qdrlxpo8u9qwko/Invul.mcpack/file' },
     ],
 
     hiddenFromBrowse: true,  // hides from the browse grid; still shows on home featured & direct URL
     featured: true,
-    dateAdded: '2026-07-09',
+    dateAdded: '2026-07-20',
   },
 ];
